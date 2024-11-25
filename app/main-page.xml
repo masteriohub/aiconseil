@@ -1,0 +1,20 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+    <ActionBar title="Newsletter Signup" />
+    <ScrollView>
+        <StackLayout class="p-4 space-y-4">
+            <Label text="Join Our Newsletter" class="text-2xl font-bold text-center mb-4" />
+            
+            <TextField hint="First Name" text="{{ firstName }}" class="input" />
+            <TextField hint="Last Name" text="{{ lastName }}" class="input" />
+            <TextField hint="Phone Number" text="{{ phone }}" keyboardType="phone" class="input" />
+            <TextField hint="Profession" text="{{ profession }}" class="input" />
+            <TextView hint="Address" text="{{ address }}" class="input h-20" />
+            <TextView hint="Comments" text="{{ comments }}" class="input h-20" />
+            
+            <Button text="Sign Up" tap="{{ onSignUp }}" class="-primary" />
+            
+            <Label text="{{ message }}" class="text-center" textWrap="true" 
+                visibility="{{ message ? 'visible' : 'collapsed' }}" />
+        </StackLayout>
+    </ScrollView>
+</Page>

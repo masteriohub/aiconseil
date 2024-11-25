@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    padding: 12;
+    margin: 8 0;
+    border-width: 1;
+    border-color: #ccc;
+    border-radius: 4;
+    background-color: white;
+}
+
+.-primary {
+    background-color: #3b82f6;
+    color: white;
+    padding: 16;
+    border-radius: 8;
+    margin: 16 0;
+    font-weight: bold;
+}
+
+.message {
+    color: #ef4444;
+    margin: 8 0;
+}
