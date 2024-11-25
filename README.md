@@ -1,3 +1,3 @@
 integrate artificial intelligence in your field of expertise
 
-example : create a bolt.new app using supabase
+project 1 : create a bolt.new app using supabase
